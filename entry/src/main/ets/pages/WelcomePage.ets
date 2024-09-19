@@ -10,6 +10,7 @@ function opacityWhiteText(fontSize: number = 10, opacity: number) {
   .fontColor(Color.White)
 }
 
+
 const PREf_KEY = 'userPrivacyKey'
 
 @Entry
