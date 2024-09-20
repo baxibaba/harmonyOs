@@ -1,4 +1,5 @@
 import SearchHeader from './SearchHeader'
+import StatsCard from './StatsCard'
 
 @Component
 export default struct RecordIndex {
@@ -7,7 +8,7 @@ export default struct RecordIndex {
       //   头部
       SearchHeader()
       //   卡片
-      Text("卡片")
+      StatsCard()
       //   记录列表
       Text("记录")
 
